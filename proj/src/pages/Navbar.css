@@ -1,0 +1,34 @@
+.nav-links a:hover {
+    color: #B85042;
+}
+
+.navbar {
+    position: fixed;
+    width: 60%;
+    background-color: #F0F1D9;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 12px;
+    z-index: 100;
+    font-size: 22px;
+    border-radius: 20px;
+    margin-left: 20%;
+    margin-top:25px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 16px;
+    margin: 5px;
+    padding: 0 50px 0 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-links li a {
+    color: #8AA893;
+    text-decoration: none;
+    padding: 8px;
+}
