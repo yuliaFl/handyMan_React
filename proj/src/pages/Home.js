@@ -1,21 +1,9 @@
 import React from 'react';
+import './Home.css';
 
 const Home = () => {
-    const backgroundStyle = {
-        backgroundImage: `url('/homepage.jpg')`,
-        backgroundSize: 'cover',
-        backgroundPosition: 'center',
-        height: '100vh', 
-        width: '100vw', 
-        display: 'flex',
-        flexDirection: 'column',
-        justifyContent: 'center',
-        alignItems: 'center',
-        color: 'white',
-        textShadow: '1px 1px 2px black',
-      };
   return (
-    <div style={backgroundStyle}>
+    <div className="home-background">
       <header>
         <h1>Ignats Website</h1>
       </header>

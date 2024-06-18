@@ -1,23 +1,10 @@
 import React from 'react';
+import './Bedroom.css';
 
 function Bedbroom() {
-    const backgroundStyle = {
-        backgroundImage: `url('/bedroom.jpg')`,
-        backgroundSize: 'cover',
-        backgroundPosition: 'center',
-        height: '100vh', /* Adjust this to fit your needs */
-        width: '100vw', /* Adjust this to fit your needs */
-        display: 'flex',
-        flexDirection: 'column',
-        justifyContent: 'center',
-        alignItems: 'center',
-        color: 'white',
-        textShadow: '1px 1px 2px black',
-      };
     
-
   return (
-    <div style={backgroundStyle}>
+    <div className="bedroom-background">
       <header>
         <h1>Bedbroom</h1>
       </header>
