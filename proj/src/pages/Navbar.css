@@ -1,10 +1,18 @@
-.nav-links a:hover {
-    color: #B85042;
+/* Reset some default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
+/* Basic styles for the navbar */
 .navbar {
     position: fixed;
+    top: 25px;
+    left: 50%;
+    transform: translateX(-50%);
     width: 60%;
+    max-width: 100%;
     background-color: #F0F1D9;
     justify-content: space-between;
     align-items: center;
@@ -13,10 +21,14 @@
     z-index: 100;
     font-size: 22px;
     border-radius: 20px;
-    margin-left: 20%;
-    margin-top:25px;
 }
 
+/* Hover effect for nav links */
+.nav-links a:hover {
+    color: #B85042;
+}
+
+/* Nav links styles */
 .nav-links {
     list-style: none;
     display: flex;
@@ -27,8 +39,45 @@
     align-items: center;
 }
 
+/* Individual nav link styles */
 .nav-links li a {
     color: #8AA893;
     text-decoration: none;
     padding: 8px;
+}
+
+/* Responsive design: Adjust font sizes and layout for smaller screens */
+@media (max-width: 768px) {
+    .navbar {
+        width: 80%;
+        font-size: 20px;
+        padding: 10px;
+        top: 20px;
+    }
+
+    .nav-links {
+        gap: 12px;
+    }
+
+    .nav-links li a {
+        padding: 6px;
+    }
+}
+
+@media (max-width: 480px) {
+    .navbar {
+        width: 90%;
+        font-size: 18px;
+        padding: 8px;
+        top: 15px;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .nav-links li a {
+        padding: 4px;
+    }
 }
