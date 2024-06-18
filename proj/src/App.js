@@ -1,4 +1,3 @@
-// src/App.js
 import React from 'react';
 import './App.css';
 import Navbar from './pages/Navbar';
@@ -10,11 +9,19 @@ import Kitchen from './pages/Kitchen';
 function App() {
   return (
     <div className="App">
-      <Navbar />
-      <Home />
-      <Kitchen/>
-      <Bedroom/>
-      <Bathroom/>
+       <Navbar />
+      <div id="Home">
+        <Home />
+      </div>
+      <div id="Kitchen">
+        <Kitchen />
+      </div>
+      <div id="Bedroom">
+        <Bedroom />
+      </div>
+      <div id="Bathroom">
+        <Bathroom />
+      </div>
     </div>
   );
 }

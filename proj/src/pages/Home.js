@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Home() {
+const Home = () => {
     const backgroundStyle = {
         backgroundImage: `url('/homepage.jpg')`,
         backgroundSize: 'cover',

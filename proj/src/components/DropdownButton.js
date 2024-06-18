@@ -1,8 +1,6 @@
-// src/components/DropdownButton.js
 import React, { useState } from 'react';
-import './DropdownButton.css';
 
-const DropdownButton = () => {
+const DropdownButton = ({ label, items }) => {
   const [isHovered, setIsHovered] = useState(false);
 
   const handleMouseEnter = () => {
@@ -20,13 +18,14 @@ const DropdownButton = () => {
         onMouseEnter={handleMouseEnter}
         onMouseLeave={handleMouseLeave}
       >
-        Sink
+        {label}
       </button>
       {isHovered && (
         <div className="dropdown-content">
           <ul>
-            <li>Change Sink</li>
-            <li>Clogged Sink</li>
+            {items.map((item, index) => (
+              <li key={index}>{item}</li>
+            ))}
           </ul>
         </div>
       )}

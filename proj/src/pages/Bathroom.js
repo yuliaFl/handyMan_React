@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Bathroom() {
+const Bathroom = () => {
     const backgroundStyle = {
         backgroundImage: `url('/bathroom.jpg')`,
         backgroundSize: 'cover',
