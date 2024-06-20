@@ -5,6 +5,7 @@ import Home from './pages/Home';
 import Bathroom from './pages/Bathroom';
 import Bedroom from './pages/Bedbroom';
 import Kitchen from './pages/Kitchen';
+import Contact from './pages/Contact';
 
 function App() {
   return (
@@ -21,6 +22,9 @@ function App() {
       </div>
       <div id="Bathroom">
         <Bathroom />
+      </div>
+      <div id="Contact">
+        <Contact />
       </div>
     </div>
   );
