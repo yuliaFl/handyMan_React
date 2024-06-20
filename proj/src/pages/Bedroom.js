@@ -1,12 +1,12 @@
 import React from 'react';
 import './Bedroom.css';
 
-function Bedbroom() {
+function Bedroom() {
     
   return (
     <div className="bedroom-background">
       <header>
-        <h1>Bedbroom</h1>
+        <h1>Bedroom</h1>
       </header>
       <main>
         <p>Hover over a part of the room that I can help you with</p>
@@ -15,4 +15,4 @@ function Bedbroom() {
   );
 }
 
-export default Bedbroom;
+export default Bedroom;

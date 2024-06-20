@@ -46,7 +46,8 @@
     text-decoration: none;
     padding: 8px;
 }
-* Responsive design: Adjust font sizes and layout for smaller screens */
+
+/* Responsive design: Adjust font sizes and layout for smaller screens */
 @media (max-width: 1024px) {
     .navbar {
         font-size: 19px; /* Slightly smaller font size */

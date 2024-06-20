@@ -1,16 +1,16 @@
 import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import './App.css';
 import Navbar from './pages/Navbar';
 import Home from './pages/Home';
 import Bathroom from './pages/Bathroom';
-import Bedroom from './pages/Bedbroom';
+import Bedroom from './pages/Bedroom';
 import Kitchen from './pages/Kitchen';
 import Contact from './pages/Contact';
 
-function App() {
+function MainPage() {
   return (
-    <div className="App">
-       <Navbar />
+    <div>
       <div id="Home">
         <Home />
       </div>
@@ -23,10 +23,21 @@ function App() {
       <div id="Bathroom">
         <Bathroom />
       </div>
-      <div id="Contact">
-        <Contact />
-      </div>
     </div>
+  );
+}
+
+function App() {
+  return (
+    <Router>
+      <div className="App">
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<MainPage />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
+      </div>
+    </Router>
   );
 }
 
