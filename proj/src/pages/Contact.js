@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import "./Contact.css"
 
 function Contact() {
   const [inputs, setInputs] = useState({
@@ -38,7 +39,6 @@ function Contact() {
               onChange={handleChange} 
             />
           </label>
-          <br />
           <label>
             Email Address:
             <input 
@@ -48,7 +48,6 @@ function Contact() {
               onChange={handleChange} 
             />
           </label>
-          <br />
           <label>
             Phone:
             <input 
@@ -58,7 +57,6 @@ function Contact() {
               onChange={handleChange} 
             />
           </label>
-          <br />
           <label>
             What can I help you with?:
             <textarea 
@@ -67,7 +65,6 @@ function Contact() {
               onChange={handleChange} 
             />
           </label>
-          <br />
           <input type="submit" value="Submit" />
         </form>
       </main>
