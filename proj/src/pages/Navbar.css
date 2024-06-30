@@ -38,6 +38,7 @@
     padding: 0;
     justify-content: center;
     align-items: center;
+    list-style-type: none;
 }
 
 /* Individual nav link styles */
@@ -47,6 +48,37 @@
     padding: 8px;
 }
 
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .dropdown-content li {
+    display: block;
+  }
+  
+  .dropdown-content a {
+    display: block;
+    padding: 12px 16px;
+    text-decoration: none;
+    color: black;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
 /* Responsive design: Adjust font sizes and layout for smaller screens */
 @media (max-width: 1024px) {
     .navbar {
