@@ -15,14 +15,8 @@
 
 .sink-section {
   position: absolute;
-  top: 40%; 
-  left: 20%; 
-}
-
-.oven-section {
-  position: absolute;
-  top: 50%; 
-  left: 60%; 
+  top: 52%; 
+  left: 80%; 
 }
 
 /* Dropdown button styles stay the same */
