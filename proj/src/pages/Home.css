@@ -62,3 +62,19 @@
     background-color: #ddd;
   }
   
+  #estimate-button{
+    background-color: rgba(240, 241, 217, 0.2);
+    color: white; 
+    padding: 15px 32px; 
+    font-size: 16px; 
+    border: none; 
+    cursor: pointer; 
+    border-radius: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    margin: 20px;
+  }
+  
+  #estimate-button:hover {
+    background-color: #45a049; 
+  }
+
