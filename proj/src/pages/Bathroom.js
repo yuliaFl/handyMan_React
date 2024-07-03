@@ -4,11 +4,8 @@ import DropdownButton from "../components/DropdownButton";
 
 function Bathroom () {
 
-  const walltems = ["Paint", "Touch up", "Drywall"];
-  const slidingDoorItems = ["Fix", "Replace "];
-  const curtiansItems = ["Hang up"];
-  const doorHandleItems = ["Change"];
-  const fanItems = ["Install"];
+  const showerHeadtems = ["Replace"];
+  const tileItems = ["Fix", "Replace ", "Hang Items"];
 
   return (
     <div className="bathroom-background">
@@ -17,6 +14,12 @@ function Bathroom () {
       </header>
       <main>
         <p>Hover over a part of the room that I can help you with</p>
+        <div className="showerhead-section">
+          <DropdownButton label="Shower Head" items={showerHeadtems} />
+        </div>
+        <div className="tileitems-section">
+          <DropdownButton label="Tile Items" items={tileItems} />
+        </div>
       </main>
     </div>
   );
