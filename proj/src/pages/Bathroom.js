@@ -1,7 +1,14 @@
 import React from 'react';
 import './Bathroom.css';
+import DropdownButton from "../components/DropdownButton";
 
-const Bathroom = () => {
+function Bathroom () {
+
+  const walltems = ["Paint", "Touch up", "Drywall"];
+  const slidingDoorItems = ["Fix", "Replace "];
+  const curtiansItems = ["Hang up"];
+  const doorHandleItems = ["Change"];
+  const fanItems = ["Install"];
 
   return (
     <div className="bathroom-background">

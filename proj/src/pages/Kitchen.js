@@ -5,7 +5,7 @@ import './Kitchen.css';
 function Kitchen() {
 
   const sinkItems = ['Change Sink', 'Clogged Sink'];
-  const backsplashItems = ['Fix', 'Change '];
+  const backsplashItems = ['Fix', 'Replace '];
   const faucetItems = ['Replace'];
   const doorItems = ['Fix ', 'Replace', 'Paint'];
 
@@ -20,13 +20,13 @@ function Kitchen() {
           <DropdownButton label="Sink" items={sinkItems} />
         </div>
         <div className="backsplash-section">
-          <DropdownButton label="backsplash" items={backsplashItems} />
+          <DropdownButton label="Backsplash" items={backsplashItems} />
         </div>
         <div className="faucet-section">
-          <DropdownButton label="faucet" items={faucetItems} />
+          <DropdownButton label="Faucet" items={faucetItems} />
         </div>
         <div className="door-section">
-          <DropdownButton label="door" items={doorItems} />
+          <DropdownButton label="Door" items={doorItems} />
         </div>
       </main>
     </div>
