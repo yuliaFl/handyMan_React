@@ -1,14 +1,22 @@
 import React from "react";
-import "./Contact.css"
+import "./Contact.css";
 
 function Contact() {
   return (
     <div className="home-background">
       <header>
-        <h1>Page Temporarily Unavailable</h1>
-        <h2>
-        Please contact me at <a href="tel:+16479373558" className="phone-link" >+1(647)937-3558</a>
-        </h2>
+        <h1>Contact Page Unavailable</h1>
+        <p>
+          We're sorry, but our contact page is temporarily unavailable due to
+          maintenance.
+        </p>
+        <p>Please use the information below to reach me:</p>
+        <div class="contact-info">
+          <p>
+            Email: <a href="mailto:support@example.com">support@example.com</a>
+          </p>
+          <p>Phone: (647)937-3558</p>
+        </div>
       </header>
     </div>
   );
