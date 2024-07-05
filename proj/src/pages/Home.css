@@ -78,4 +78,10 @@
     background-color: black; 
   }
 
-  /*#868B8E*/
+  .logo {
+    position: fixed;
+    top: 25px;
+    left: 40px;
+    width: 100px; /* Adjust the size as needed */
+    height: auto;
+  }

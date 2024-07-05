@@ -12,6 +12,7 @@ function Home () {
   return (
     <div className="home-background">
       <header>
+        <img src={`${process.env.PUBLIC_URL}/logo.png`} alt="Logo" className="logo" />
         <h1>Ignats Website</h1>
       </header>
       <main>
