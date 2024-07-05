@@ -14,6 +14,7 @@ function Navbar() {
   };
   return (
     <nav className="navbar">
+      <img src={`${process.env.PUBLIC_URL}/logo.png`} alt="Logo" className="logo" />
       <ul className="nav-links">
         <li><a href="#Home">Home</a></li>
         <li
@@ -30,6 +31,7 @@ function Navbar() {
             </ul>
           )}
         </li>
+        <li><Link to="/outdoor">Outdoor</Link></li>
         <li><Link to="/contact">Contact</Link></li>
       </ul>
     </nav>

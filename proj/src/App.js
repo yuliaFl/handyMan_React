@@ -7,6 +7,7 @@ import Bathroom from './pages/Bathroom';
 import Bedroom from './pages/Bedroom';
 import Kitchen from './pages/Kitchen';
 import Contact from './pages/Contact';
+import Outdoor from './pages/Outdoor';
 
 function MainPage() {
   return (
@@ -23,6 +24,9 @@ function MainPage() {
       <div id="Bathroom">
         <Bathroom />
       </div>
+      <div id="Outdoor">
+        <Outdoor />
+      </div>
     </div>
   );
 }
@@ -34,6 +38,7 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="/" element={<MainPage />} />
+          <Route path="/outdoor" element={<Outdoor />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
       </div>

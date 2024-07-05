@@ -11,15 +11,15 @@
     top: 25px;
     left: 50%;
     transform: translateX(-50%);
-    width: 60%;
-    max-width: 100%;
+    width: 40%;
+    max-width: 70%;
     background-color: rgba(240, 241, 217, 0.2);
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 12px;
     z-index: 100;
-    font-size: 22px;
+    font-size: 25px;
     border-radius: 20px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }
@@ -80,7 +80,10 @@
 /* Responsive design: Adjust font sizes and layout for smaller screens */
 @media (max-width: 1024px) {
     .navbar {
-        font-size: 19px; /* Slightly smaller font size */
+        width: 50%;
+        font-size: 20px; 
+        padding: 10px;
+        top: 20px;
     }
 
     .nav-links {
@@ -94,8 +97,8 @@
 
 @media (max-width: 768px) {
     .navbar {
-        width: 80%;
-        font-size: 15px; /* Smaller font size */
+        width: 60%;
+        font-size: 15px;
         padding: 10px;
         top: 20px;
     }
@@ -108,3 +111,11 @@
         padding: 6px;
     }
 }
+
+.logo {
+    position: fixed;
+    top: -5px;
+    left: -110px;
+    width: 100px; 
+    height: auto;
+  }

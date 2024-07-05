@@ -1,5 +1,5 @@
-.home-background {
-    background-image: url('../../public/homepage.jpg');
+.outdoor-background {
+    background-image: url('../../public/house.jpg');
     background-position: center;
     background-size: cover; 
     height: 100vh;

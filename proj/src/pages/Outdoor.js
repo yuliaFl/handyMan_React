@@ -1,8 +1,8 @@
 import React from 'react';
-import './Home.css';
+import './Outdoor.css';
 import { useNavigate } from 'react-router-dom';
 
-function Home () {
+function Outdoor () {
 
   const navigate = useNavigate();
 
@@ -10,16 +10,15 @@ function Home () {
     navigate('/contact');
   }
   return (
-    <div className="home-background">
+    <div className="outdoor-background">
       <header>
         <h1>Fixit Handyman Solutions</h1>
       </header>
       <main>
-        <button id="estimate-button" onClick={redirectPage}>Get Your Free Estimate </button>
         <p>Description of Ignats work</p>
       </main>
     </div>
   );
 }
 
-export default Home;
+export default Outdoor;
