@@ -22,3 +22,8 @@ function Outdoor () {
 }
 
 export default Outdoor;
+
+
+/*
+CSS CHANGE WITH THIS FILE EFFECTS BUTTONS ON OTHER PAGES
+*/
