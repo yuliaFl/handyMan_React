@@ -68,3 +68,34 @@
   color: #023e8a !important;
   padding: 8px 0; 
 }
+
+.wall-section{
+  position: absolute;
+  top: 45%; 
+  left: 85%; 
+}
+.slidingdoor-section{
+  position: absolute;
+  top: 50%; 
+  left: 1%; 
+}
+.curtians-section{
+  position: absolute;
+  top: 30%; 
+  left: 10%; 
+}
+.doorhandle-section{
+  position: absolute;
+  top: 45%; 
+  left: 17%; 
+}
+.fan-section{
+  position: absolute;
+  top: 10%; 
+  left: 48%; 
+}
+.furnitureAssemble-section{
+  position: absolute;
+  top: 60%; 
+  left: 30%; 
+}

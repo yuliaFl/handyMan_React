@@ -53,3 +53,14 @@
     color: #023e8a !important;
     padding: 8px 0; 
   }
+
+  .showerhead-section{
+    position: absolute;
+    top: 10%; 
+    left: 60%; 
+  }
+  .tileitems-section{
+    position: absolute;
+    top: 40%; 
+    left: 75%; 
+  }
