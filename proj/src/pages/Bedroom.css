@@ -19,8 +19,8 @@
 }
 
 .button-style {
-  background-color: rgba(240, 241, 217, 0.2);
-  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  background-color: rgba(240, 241, 217, 0.8);
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);
   border: none;
   color:white;
   text-shadow: 1px 1px 2px black;
@@ -91,7 +91,7 @@
 }
 .fan-section{
   position: absolute;
-  top: 10%; 
+  top: 18%; 
   left: 48%; 
 }
 .furnitureAssemble-section{
