@@ -4,6 +4,7 @@ import DropdownButton from "../components/DropdownButton";
 
 function Bathroom () {
 
+  /* Content for every dropdown button */
   const showerHeadtems = ["Replace"];
   const tileItems = ["Fix", "Replace ", "Hang Items"];
 

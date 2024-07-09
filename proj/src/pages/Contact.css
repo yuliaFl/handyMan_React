@@ -63,3 +63,11 @@ input[type="submit"] {
 .phone-link:hover {
     text-decoration: underline;
 }
+
+.phone-link {
+  color: #023e8a;
+}
+
+.email-link {
+  color: #023e8a;
+}

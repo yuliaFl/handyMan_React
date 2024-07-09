@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-const DropdownButton = ({ label, items }) => {
+const DropdownButton = ({ label, items, onClick }) => {
   const [isHovered, setIsHovered] = useState(false);
 
   const handleMouseEnter = () => {
@@ -11,12 +11,20 @@ const DropdownButton = ({ label, items }) => {
     setIsHovered(false);
   };
 
+  const handleClick = () => {
+    if (onClick) {
+      onClick();
+    }
+    alert('Button clicked!'); // Optional: remove this if not needed
+  };
+
   return (
     <div className="dropdown">
       <button
         className="dropdown-button"
         onMouseEnter={handleMouseEnter}
         onMouseLeave={handleMouseLeave}
+        onClick={handleClick}
       >
         {label}
       </button>

@@ -3,6 +3,7 @@ import "./Bedroom.css";
 import DropdownButton from "../components/DropdownButton";
 
 function Bedroom() {
+  /* Content for every dropdown button */
   const walltems = ["Paint", "Touch up", "Drywall"];
   const slidingDoorItems = ["Fix", "Replace "];
   const curtiansItems = ["Hang up"];
