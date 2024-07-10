@@ -55,7 +55,7 @@
     padding: 8px 16px;
     text-decoration: none;
     display: block;
-    color: black;
+    color: #333333;
   }
   
   .dropdown-content li:hover {
@@ -63,7 +63,7 @@
   }
   
   #estimate-button{
-    background-color: rgba(240, 241, 217, 0.2);
+    background-color: rgba(240, 241, 217, 0.1);
     color: white; 
     padding: 15px 32px; 
     font-size: 16px; 
@@ -75,5 +75,5 @@
   }
   
   #estimate-button:hover {
-    background-color: black; 
+    background-color: #333333; 
   }

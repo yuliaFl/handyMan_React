@@ -13,48 +13,6 @@
   position: relative; 
 }
 
-.dropdown {
-  position: relative;
-  display: inline-block;
-}
-
-.dropdown-button {
-  background-color: rgba(240, 241, 217, 0.8);
-  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);
-  border: none;
-  color:white;
-  text-shadow: 1px 1px 2px black;
-  padding: 5px 10px;
-  text-align: center;
-  text-decoration: none;
-  font-size: 20px;
-  cursor: pointer;
-  border-radius: 4px;
-  margin: 10px;
-}
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  min-width: 160px;
-  z-index: 1;
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-}
-
-.dropdown-content ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  color: #023e8a !important;;
-}
-
-.dropdown-content ul li {
-  color: #023e8a !important;
-  padding: 8px 0; 
-}
-
 .roof-section{
   position: absolute;
   top: 20%; 

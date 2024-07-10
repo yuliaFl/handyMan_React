@@ -9,16 +9,6 @@ function Kitchen() {
   const faucetItems = ['Replace'];
   const doorItems = ['Fix ', 'Replace', 'Paint'];
 
-  const [isFormVisible, setFormVisible] = useState(false);
-
-  const handleButtonClick = () => {
-    setFormVisible(true);
-  };
-
-  const handleCloseForm = () => {
-    setFormVisible(false);
-  };
-
   return (
     <div className="kitchen-background">
       <header>
@@ -27,8 +17,7 @@ function Kitchen() {
       <main>
         <p>Hover over a part of the room that I can help you with</p>
         <div className="sink-section">
-          <DropdownButton label="Sink" items={sinkItems} onClick={handleButtonClick}/>
-          {isFormVisible && <Form onClose={handleCloseForm} />}
+          <DropdownButton label="Sink" items={sinkItems}/> 
         </div>
         <div className="backsplash-section">
           <DropdownButton label="Backsplash" items={backsplashItems} />

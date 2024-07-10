@@ -16,7 +16,7 @@ function Home () {
       </header>
       <main>
         <button id="estimate-button" onClick={redirectPage}>Get Your Free Estimate </button>
-        <p>Description of Ignats work</p>
+        <p>Description of Ignats work- Hello</p>
       </main>
     </div>
   );
