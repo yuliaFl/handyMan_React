@@ -11,6 +11,7 @@
   color: white;
   position: relative; 
   text-shadow: 1px 1px 2px black;
+  opacity: 95%;
 }
 
 .sink-section {
@@ -25,14 +26,15 @@
   left: 39%; 
 }
 
-.door-section {
-  position: absolute;
-  top: 40%; 
-  left: 20%; 
-}
 
 .faucet-section {
   position: absolute;
   top: 32%; 
   left: 71%; 
+}
+
+.kitchen-background .door-section {
+  position: absolute;
+  top: 32%; 
+  left: 7%; 
 }

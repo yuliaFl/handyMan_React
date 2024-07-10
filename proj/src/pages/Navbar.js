@@ -1,6 +1,7 @@
 import "./Navbar.css";
-import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
+import React, { useState } from "react";
+import { Link } from "react-router-dom";
+import logo from '..'
 
 function Navbar() {
   const [dropdownOpen, setDropdownOpen] = useState(false);
@@ -14,25 +15,40 @@ function Navbar() {
   };
   return (
     <nav className="navbar">
-      <img src={`${process.env.PUBLIC_URL}/logo.png`} alt="Logo" className="logo" />
       <ul className="nav-links">
-        <li><a href="#Home">Home</a></li>
+        <li className="home-link">
+          <Link to="/">
+          <img src={`${process.env.PUBLIC_URL}/logo.png`} alt="Logo" className="logo" />
+          </Link>
+        </li>
         <li
           className="dropdown"
           onMouseEnter={handleMouseEnter}
           onMouseLeave={handleMouseLeave}
         >
-          <a href="#Rooms" className="dropdown-toggle">Rooms</a>
+          <a href="#Rooms" className="dropdown-toggle">
+            Rooms
+          </a>
           {dropdownOpen && (
             <ul className="dropdown-content">
-              <li><a href="#Kitchen">Kitchen</a></li>
-              <li><a href="#Bedroom">Bedroom</a></li>
-              <li><a href="#Bathroom">Bathroom</a></li>
+              <li>
+                <a href="#Kitchen">Kitchen</a>
+              </li>
+              <li>
+                <a href="#Bedroom">Bedroom</a>
+              </li>
+              <li>
+                <a href="#Bathroom">Bathroom</a>
+              </li>
             </ul>
           )}
         </li>
-        <li><Link to="/outdoor">Outdoor</Link></li>
-        <li><Link to="/contact">Contact</Link></li>
+        <li>
+          <Link to="/outdoor">Outdoor</Link>
+        </li>
+        <li>
+          <Link to="/contact">Contact</Link>
+        </li>
       </ul>
     </nav>
   );

@@ -17,7 +17,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 12px;
+    padding: 1px;
     z-index: 100;
     font-size: 25px;
     border-radius: 20px;
@@ -34,7 +34,7 @@
     list-style: none;
     display: flex;
     gap: 16px;
-    margin: 5px;
+    margin: 1px;
     padding: 0;
     justify-content: center;
     align-items: center;
@@ -106,9 +106,6 @@
 }
 
 .logo {
-    position: fixed;
-    top: -5px;
-    left: -110px;
-    width: 100px; 
-    height: auto;
+    height: 70px; /* Adjust the height to fit your navbar */
+    width: auto;
   }
