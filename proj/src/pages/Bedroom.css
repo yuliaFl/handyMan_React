@@ -11,19 +11,38 @@
   color: white;
   text-shadow: 1px 1px 2px black;
   position: relative; 
-  opacity: 95%;
+  opacity: 97%;
+}
+
+.bedroom-background::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.15); 
+  z-index: 1;
+  pointer-events: none;
+}
+
+.wall-section, .slidingdoor-section, .curtians-section, .doorhandle-section, .fan-section, .furnitureAssemble-section {
+  z-index: 3; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .button-style {
-  background-color: rgba(240, 241, 217, 0.2);
-  color: 333333; 
+  background-color: rgba(240, 241, 217, 0.1);
+  color: white; 
   padding: 15px 32px; 
   font-size: 16px; 
   border: none; 
   cursor: pointer; 
   border-radius: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
   margin: 20px;
-  transition: background-color 0.3s ease;
 }
 
 .wall-section{

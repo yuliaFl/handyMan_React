@@ -11,8 +11,28 @@
     color: white;
     text-shadow: 1px 1px 2px black;
     position: relative; 
-    opacity: 95%;
+    opacity: 97%;
   }
+  
+  .bathroom-background::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.15); 
+    z-index: 1;
+    pointer-events: none;
+  }
+
+  .showerhead-section,
+  .tileitems-section{
+  z-index: 3; /* Ensuring these sections are above the overlay */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
   .showerhead-section{
     position: absolute;

@@ -9,10 +9,28 @@
   justify-content: center;
   align-items: center;
   color: white;
-  text-shadow: 1px 1px 2px black;
   position: relative; 
-  opacity: 95%;
+  text-shadow: 1px 1px 2px black;
 }
+
+.outdoor-background::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.1); 
+  z-index: 1;
+  pointer-events: none;
+}
+
+.roof-section .interlock-section .driveway-section .bollards-section .window-section .door-section .gate-section {
+z-index: 3; /* Ensuring these sections are above the overlay */
+display: flex;
+justify-content: center;
+align-items: center;
+} 
 
 .roof-section{
   position: absolute;
@@ -60,48 +78,4 @@
   position: absolute;
   top: 40%; 
   left: 38%;
-}
-
-
-.dropdown-button {
-  background-color: rgba(240, 241, 217, 0.2);
-  color: white; 
-  padding: 15px 32px; 
-  font-size: 16px; 
-  border: none; 
-  cursor: pointer; 
-  border-radius: 20px;
-  margin: 20px;
-}
-
-.dropdown-button:hover {
-  background-color: #333333; 
-  color: white;
-}
-
-.dropdown {
-  position: relative;
-  display: inline-block;
-}
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  min-width: 160px;
-  z-index: 1;
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-}
-
-.dropdown-content ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  color: #023e8a !important;
-}
-
-.dropdown-content ul li {
-  color: #023e8a !important;
-  padding: 8px 0; 
 }

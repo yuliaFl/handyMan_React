@@ -14,13 +14,25 @@
   opacity: 97%;
 }
 
+.home-background::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.1); 
+  z-index: 1;
+  pointer-events: none;
+}
+
 /* Dropdown button styles stay the same */
 .home-background .dropdown {
   position: relative;
   display: inline-block;
 }
 
-.dropdown-button {
+.home-background .dropdown-button {
   background-color: transparent;
   border: none;
   color: white;
@@ -33,11 +45,10 @@
   border-radius: 4px;
 }
 
-.dropdown-button:hover {
+.home-background .dropdown-button:hover {
   background-color: transparent;
 }
-
-.dropdown-content {
+ .dropdown-content {
   display: block;
   position: absolute;
   background-color: white;
