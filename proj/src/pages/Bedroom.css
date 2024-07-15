@@ -27,10 +27,11 @@
 }
 
 .wall-section, .slidingdoor-section, .curtians-section, .doorhandle-section, .fan-section, .furnitureAssemble-section {
-  z-index: 3; 
   display: flex;
   justify-content: center;
   align-items: center;
+  z-index: 3;
+  transition: left 0.3s ease; 
 }
 
 .button-style {
@@ -74,4 +75,37 @@
   position: absolute;
   top: 60%; 
   left: 30%; 
+}
+
+@media (max-width: 800px) {
+  .wall-section,
+  .slidingdoor-section,
+  .faucet-section,
+  .curtians-section,
+  .doorhandle-section,
+  .fan-section,
+  .furnitureAssemble-section
+  {
+    left: calc(100vw - 200px); 
+    margin-left: 20px; 
+  }
+
+  .fan-section{
+    top:15%;
+  }
+  .wall-section{
+    top:25%;
+  }
+  .curtians-section{
+    top:35%;
+  }
+  .doorhandle-section{
+    top:45%;
+  }
+  .slidingdoor-section{
+    top:55%;
+  }
+  .furnitureAssemble-section{
+    top:65%;
+  }
 }
