@@ -61,12 +61,14 @@
 .dropdown-content {
   display: none;
   position: absolute;
+  top: 0;
   min-width: 160px;
   z-index: 1;
   list-style-type: none;
   padding: 0;
   margin: 0;
-  background-color:  rgba(240, 241, 217, 0.5);
+  background-color:  rgba(240, 241, 217, 0.8);
+  left: -160px; 
 }
 
 .dropdown-content ul {
