@@ -79,3 +79,44 @@ align-items: center;
   top: 40%; 
   left: 38%;
 }
+
+
+@media (max-width: 800px) {
+  .roof-section,
+  .interlock-section,
+  .driveway-section,
+  .bollards-section,
+  .window-section,
+  .door-section,
+  .gate-section,
+  .siding-section
+  {
+    left: calc(100vw - 200px); 
+    margin-left: 20px; 
+  }
+
+  .roof-section{
+    top:15%;
+  }
+  .interlock-section{
+    top:25%;
+  }
+  .driveway-section{
+    top:35%;
+  }
+  .bollards-section{
+    top:45%;
+  }
+  .window-section{
+    top:55%;
+  }
+  .door-section{
+    top:65%;
+  }
+  .gate-section{
+    top:75%;
+  }
+  .siding-section{
+    top:85%;
+  }
+}
