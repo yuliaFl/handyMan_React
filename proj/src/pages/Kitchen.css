@@ -29,10 +29,11 @@
 .backsplash-section,
 .faucet-section,
 .door-section {
-  z-index: 3; /* Ensuring these sections are above the overlay */
   display: flex;
   justify-content: center;
   align-items: center;
+  z-index: 3;
+  transition: left 0.3s ease; /* Smooth transition for left position */
 }
 
 .sink-section {
@@ -57,4 +58,24 @@
   position: absolute;
   top: 32%;
   left: 7%;
+}
+
+@media (max-width: 800px) {
+  .sink-section,
+  .backsplash-section,
+  .faucet-section,
+  .kitchen-background .door-section {
+    left: calc(100vw - 200px); /* Adjust based on section width */
+    margin-left: 20px; /* Adjust the value to control the spacing */
+  }
+  .kitchen-background .door-section {
+    top: 32%;
+  }
+  .faucet-section {
+    top: 42%;
+  }
+
+  .backsplash-section {
+    top: 22%;
+  }
 }

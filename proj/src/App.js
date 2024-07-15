@@ -9,6 +9,7 @@ import Bedroom from './pages/Bedroom';
 import Kitchen from './pages/Kitchen';
 import Contact from './pages/Contact';
 import Outdoor from './pages/Outdoor';
+import Footer from './pages/Footer';
 
 function MainPage() {
   return (
@@ -27,6 +28,9 @@ function MainPage() {
       </div>
       <div id="Outdoor">
         <Outdoor />
+      </div>
+      <div id="Footer">
+        <Footer />
       </div>
     </div>
   );
