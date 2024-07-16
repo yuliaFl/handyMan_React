@@ -52,6 +52,7 @@
   position: absolute;
   top: 32%;
   left: 71%;
+  z-index: 4;
 }
 
 .kitchen-background .door-section {
@@ -65,8 +66,8 @@
   .backsplash-section,
   .faucet-section,
   .kitchen-background .door-section {
-    left: calc(100vw - 200px); /* Adjust based on section width */
-    margin-left: 20px; /* Adjust the value to control the spacing */
+    left: calc(100vw - 200px); 
+    margin-left: 20px;
   }
   .kitchen-background .door-section {
     top: 32%;
@@ -81,4 +82,12 @@
   .sink-section {
     top: 52%;
   }
+  .sink-section button,
+  .backsplash-section button,
+  .faucet-section button,
+  .door-section button {
+    background-color: #333; 
+    color: #fff; 
+  }
 }
+

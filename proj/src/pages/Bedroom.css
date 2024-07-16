@@ -80,7 +80,6 @@
 @media (max-width: 800px) {
   .wall-section,
   .slidingdoor-section,
-  .faucet-section,
   .curtians-section,
   .doorhandle-section,
   .fan-section,
@@ -108,4 +107,16 @@
   .furnitureAssemble-section{
     top:65%;
   }
+
+  .wall-section,
+  .slidingdoor-section,
+  .curtians-section,
+  .doorhandle-section,
+  .fan-section,
+  .furnitureAssemble-section
+  {
+    background-color: #333; 
+    color: #fff; 
+  }
+
 }

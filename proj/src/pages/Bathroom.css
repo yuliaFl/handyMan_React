@@ -53,5 +53,10 @@
       margin-left: 20px; 
       background-color: rgba(0, 0, 0, 0.15); 
     }
+    .showerhead-section,
+    .tileitems-section {
+        background-color: #333; 
+        color: #fff; 
+      }
   }
   

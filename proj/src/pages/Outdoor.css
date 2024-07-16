@@ -62,7 +62,7 @@ align-items: center;
   left: 70%;
 }
 
-.door-section{
+.outdoor-background .door-section{
   position: absolute;
   top: 60%; 
   left: 66%;
@@ -87,7 +87,7 @@ align-items: center;
   .driveway-section,
   .bollards-section,
   .window-section,
-  .door-section,
+  .outdoor-background .door-section,
   .gate-section,
   .siding-section
   {
@@ -110,7 +110,7 @@ align-items: center;
   .window-section{
     top:55%;
   }
-  .door-section{
+  .outdoor-background .door-section{
     top:65%;
   }
   .gate-section{
@@ -118,5 +118,18 @@ align-items: center;
   }
   .siding-section{
     top:85%;
+  }
+
+  .roof-section,
+  .interlock-section,
+  .driveway-section,
+  .bollards-section,
+  .window-section,
+  .outdoor-background .door-section,
+  .gate-section,
+  .siding-section
+  {
+    background-color: #333; 
+    color: #fff; 
   }
 }
