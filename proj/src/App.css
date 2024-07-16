@@ -40,8 +40,8 @@
 .dropdown-button {
   background-color: rgba(240, 241, 217, 0.2);
   color: white; 
-  padding: 15px 32px; 
-  font-size: 16px; 
+  padding: 15px 35px; 
+  font-size: 18px; 
   border: none; 
   cursor: pointer; 
   border-radius: 20px;
@@ -67,8 +67,9 @@
   list-style-type: none;
   padding: 0;
   margin: 0;
-  background-color:  rgba(240, 241, 217, 0.8);
+  background-color: rgba(240, 241, 217, 0.5);
   left: -160px;
+  border-radius: 20px;
 }
 
 .App .dropdown:hover .dropdown-content {
@@ -85,4 +86,64 @@
 .App .dropdown-content ul li {
   color: #023e8a !important;
   padding: 8px 0; 
+}
+
+@media (max-width: 800px) {
+  .wall-section,
+  .slidingdoor-section,
+  .curtians-section,
+  .doorhandle-section,
+  .fan-section,
+  .furnitureAssemble-section,
+  .roof-section,
+  .interlock-section,
+  .driveway-section,
+  .bollards-section,
+  .window-section,
+  .outdoor-background .door-section,
+  .gate-section,
+  .siding-section,
+  .showerhead-section,
+  .tileitems-section, 
+  .sink-section,
+  .backsplash-section,
+  .faucet-section,
+  .kitchen-background .door-section {
+    right: 0; 
+    margin-right: 35px; 
+  }
+  .roof-section button,
+  .interlock-section button,
+  .driveway-section button,
+  .bollards-section button,
+  .window-section button,
+  .outdoor-background .door-section button,
+  .gate-section button,
+  .siding-section button,
+  .showerhead-section button,
+  .tileitems-section button,
+  .wall-section button,
+  .slidingdoor-section button,
+  .curtians-section button,
+  .doorhandle-section button,
+  .fan-section button,
+  .furnitureAssemble-section button,
+  .sink-section button,
+  .backsplash-section button,
+  .faucet-section button,
+  .door-section button {
+    background-color: #333; 
+    color: #fff; 
+    white-space: nowrap; /* Ensures the text stays on one line */
+    padding: 10px 20px; /* Adjust padding */
+    font-size: 18px; 
+  }
+}
+
+.page-header{
+  font-size: 40px;
+}
+
+.message{
+  font-size: 20px;
 }

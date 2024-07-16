@@ -1,24 +1,26 @@
-import React from 'react';
-import DropdownButton from '../components/DropdownButton'; 
-import './Outdoor.css';
+import React from "react";
+import DropdownButton from "../components/DropdownButton";
+import "./Outdoor.css";
 
-function Outdoor () {
-  const roofItems = ['Repair', 'Replace'];
-  const interlockItems = ['Repair', 'Replace'];
-  const drivewayItems = ['Repair'];
-  const bollardsItems = ['Repair ', 'Install'];
-  const windowItems = ['Repair', 'Install'];
-  const doorItems = ['Repair', 'Install'];
-  const gateItems = ['Repair', 'Install'];
-  const sidingItems = ['Repair','Install'];
+function Outdoor() {
+  const roofItems = ["Repair", "Replace"];
+  const interlockItems = ["Repair", "Replace"];
+  const drivewayItems = ["Repair"];
+  const bollardsItems = ["Repair ", "Install"];
+  const windowItems = ["Repair", "Install"];
+  const doorItems = ["Repair", "Install"];
+  const gateItems = ["Repair", "Install"];
+  const sidingItems = ["Repair", "Install"];
 
   return (
     <div className="outdoor-background">
       <header>
-        <h1>Outdoor</h1>
+        <div className="page-header">Outdoor</div>
       </header>
       <main>
-        <p>Hover over a part of the room that I can help you with</p>
+        <div className="message">
+          Hover over a part of the room that I can help you with
+        </div>
         <div className="roof-section">
           <DropdownButton label="Roof" items={roofItems} />
         </div>

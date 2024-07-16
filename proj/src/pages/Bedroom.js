@@ -13,10 +13,12 @@ function Bedroom() {
   return (
     <div className="bedroom-background">
       <header>
-        <h1>Bedroom</h1>
+        <div className="page-header">Bedroom</div>
       </header>
       <main>
-        <p>Hover over a part of the room that I can help you with</p>
+        <div className="message">
+          Hover over a part of the room that I can help you with
+        </div>
         <div className="wall-section">
           <DropdownButton label="Wall" items={walltems} />
         </div>
@@ -33,7 +35,7 @@ function Bedroom() {
           <DropdownButton label="Fan" items={fanItems} />
         </div>
         <div className="furnitureAssemble-section">
-          <button className="button-style" >Furniture Assembly </button>
+          <button className="button-style">Furniture Assembly </button>
         </div>
       </main>
     </div>

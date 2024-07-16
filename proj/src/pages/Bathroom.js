@@ -1,9 +1,8 @@
-import React from 'react';
-import './Bathroom.css';
+import React from "react";
+import "./Bathroom.css";
 import DropdownButton from "../components/DropdownButton";
 
-function Bathroom () {
-
+function Bathroom() {
   /* Content for every dropdown button */
   const showerHeadtems = ["Replace"];
   const tileItems = ["Fix", "Replace ", "Hang Items"];
@@ -11,10 +10,12 @@ function Bathroom () {
   return (
     <div className="bathroom-background">
       <header>
-        <h1>Bathroom</h1>
+        <div className="page-header">Bathroom</div>
       </header>
       <main>
-        <p>Hover over a part of the room that I can help you with</p>
+        <div className="message">
+          Hover over a part of the room that I can help you with
+        </div>
         <div className="showerhead-section">
           <DropdownButton label="Shower Head" items={showerHeadtems} />
         </div>

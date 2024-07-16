@@ -1,23 +1,25 @@
-import React, { useState } from 'react';
-import DropdownButton from '../components/DropdownButton';
-import Form from '../components/Form';
-import './Kitchen.css';
+import React, { useState } from "react";
+import DropdownButton from "../components/DropdownButton";
+import Form from "../components/Form";
+import "./Kitchen.css";
 
 function Kitchen() {
-  const sinkItems = ['Change Sink', 'Clogged Sink'];
-  const backsplashItems = ['Fix', 'Replace '];
-  const faucetItems = ['Replace'];
-  const doorItems = ['Fix ', 'Replace', 'Paint'];
+  const sinkItems = ["Change Sink", "Clogged Sink"];
+  const backsplashItems = ["Fix", "Replace "];
+  const faucetItems = ["Replace"];
+  const doorItems = ["Fix ", "Replace", "Paint"];
 
   return (
     <div className="kitchen-background">
       <header>
-        <h1>Kitchen</h1>
+        <div className="page-header">Kitchen</div>
       </header>
       <main>
-        <p>Hover over a part of the room that I can help you with</p>
+        <div className="message">
+          Hover over a part of the room that I can help you with
+        </div>
         <div className="sink-section">
-          <DropdownButton label="Sink" items={sinkItems}/> 
+          <DropdownButton label="Sink" items={sinkItems} />
         </div>
         <div className="backsplash-section">
           <DropdownButton label="Backsplash" items={backsplashItems} />
