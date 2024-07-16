@@ -108,15 +108,13 @@
     top:65%;
   }
 
-  .wall-section,
-  .slidingdoor-section,
-  .curtians-section,
-  .doorhandle-section,
-  .fan-section,
-  .furnitureAssemble-section
-  {
+  .wall-section button,
+  .slidingdoor-section button,
+  .curtians-section button,
+  .doorhandle-section button,
+  .fan-section button,
+  .furnitureAssemble-section button {
     background-color: #333; 
     color: #fff; 
   }
-
 }

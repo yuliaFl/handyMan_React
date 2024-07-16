@@ -45,18 +45,9 @@
     top: 40%; 
     left: 75%; 
   }
-
-  @media (max-width: 800px) {
-    .showerhead-section,
-    .tileitems-section {
-      left: calc(100vw - 200px); 
-      margin-left: 20px; 
-      background-color: rgba(0, 0, 0, 0.15); 
-    }
-    .showerhead-section,
-    .tileitems-section {
-        background-color: #333; 
-        color: #fff; 
-      }
+  .showerhead-section button,
+  .tileitems-section button {
+    background-color: #333; 
+    color: #fff; 
   }
   
