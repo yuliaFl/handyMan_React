@@ -87,3 +87,11 @@ input[type="submit"] {
 .email-link {
   color: #023e8a;
 }
+
+.error-message{
+    font-size: 18px;
+}
+
+.contact-info{
+  font-size: 18px;
+}
