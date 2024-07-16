@@ -53,12 +53,12 @@
   color: white;
 }
 
-.dropdown {
+.App .dropdown {
   position: relative;
   display: inline-block;
 }
 
-.dropdown-content {
+.App .dropdown-content {
   display: none;
   position: absolute;
   top: 0;
@@ -68,17 +68,21 @@
   padding: 0;
   margin: 0;
   background-color:  rgba(240, 241, 217, 0.8);
-  left: -160px; 
+  left: -160px;
 }
 
-.dropdown-content ul {
+.App .dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.App .dropdown-content ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   color: #023e8a !important;
 }
 
-.dropdown-content ul li {
+.App .dropdown-content ul li {
   color: #023e8a !important;
   padding: 8px 0; 
 }

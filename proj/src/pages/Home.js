@@ -12,7 +12,7 @@ function Home () {
   return (
     <div className="home-background">
       <header>
-        <h1>Fixit Handyman Solutions</h1>
+        <h1>FixIt Handyman Solutions</h1>
       </header>
       <main>
         <button id="estimate-button" onClick={redirectPage}>Get Your Free Estimate </button>

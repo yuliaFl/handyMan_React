@@ -51,6 +51,7 @@
     .tileitems-section {
       left: calc(100vw - 200px); 
       margin-left: 20px; 
+      background-color: rgba(0, 0, 0, 0.15); 
     }
   }
   

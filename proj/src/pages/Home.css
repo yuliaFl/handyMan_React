@@ -26,50 +26,6 @@
   pointer-events: none;
 }
 
-/* Dropdown button styles stay the same */
-.home-background .dropdown {
-  position: relative;
-  display: inline-block;
-}
-
-.home-background .dropdown-button {
-  background-color: transparent;
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  cursor: pointer;
-  border-radius: 4px;
-}
-
- .dropdown-content {
-  display: block;
-  position: absolute;
-  background-color:  rgba(240, 241, 217, 0.5);
-  z-index: 1;
-  border-radius: 4px;
-}
-
-.dropdown-content ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-
-.dropdown-content li {
-  padding: 8px 16px;
-  text-decoration: none;
-  display: block;
-  color: #333333;
-}
-
-.dropdown-content li:hover {
-  background-color: #ddd;
-}
-
 #estimate-button{
   background-color: rgba(240, 241, 217, 0.1);
   color: white; 
