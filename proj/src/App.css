@@ -70,6 +70,7 @@
   background-color: rgba(240, 241, 217, 0.5);
   left: -160px;
   border-radius: 20px;
+  text-shadow: none;
 }
 
 .App .dropdown:hover .dropdown-content {

@@ -26,12 +26,20 @@
   pointer-events: none;
 }
 
-.roof-section .interlock-section .driveway-section .bollards-section .window-section .door-section .gate-section {
-z-index: 3; /* Ensuring these sections are above the overlay */
-display: flex;
-justify-content: center;
-align-items: center;
-} 
+.roof-section,
+.interlock-section,
+.driveway-section,
+.bollards-section,
+.window-section,
+.door-section,
+.gate-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 3;
+  transition: left 0.3s ease;
+}
+
 
 .roof-section{
   position: absolute;
