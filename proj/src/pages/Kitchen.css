@@ -39,20 +39,20 @@
 
 .sink-section {
   position: absolute;
-  top: 55%;
-  left: 85%;
+  top: 63%;
+  left: 47%;
 }
 
 .backsplash-section {
   position: absolute;
-  top: 30%;
-  left: 39%;
+  top: 38%;
+  left: 49%;
 }
 
 .faucet-section {
   position: absolute;
-  top: 32%;
-  left: 71%;
+  top: 55%;
+  left: 57%;
   z-index: 4;
 }
 

@@ -44,7 +44,7 @@
 
 .home-page-header{
   margin-top: 30%;
-  font-size: 40px;
+  font-size: 60px;
 }
 
 .handyman-description {
@@ -58,13 +58,13 @@
 }
 
 .handyman-description .title {
-  color:#333333; 
+  color:white; 
   font-size: 20px;
   margin-bottom: 10px;
 }
 
 .handyman-description .content {
-  color: #333333; 
+  color: white; 
   line-height: 1.6;
   margin-bottom: 10px;
 }

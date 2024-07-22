@@ -48,32 +48,32 @@
 
 .wall-section{
   position: absolute;
-  top: 45%; 
-  left: 85%; 
+  top: 35%; 
+  left: 77%; 
 }
 .slidingdoor-section{
   position: absolute;
-  top: 50%; 
-  left: 1%; 
+  top: 31%; 
+  left: 55%; 
 }
 .curtians-section{
   position: absolute;
   top: 30%; 
-  left: 10%; 
+  left: 1%; 
 }
 .doorhandle-section{
   position: absolute;
-  top: 45%; 
-  left: 17%; 
+  top: 54%; 
+  left: 70%; 
 }
 .fan-section{
   position: absolute;
-  top: 18%; 
+  top: 15%; 
   left: 48%; 
 }
 .furnitureAssemble-section{
   position: absolute;
-  top: 60%; 
+  top: 70%; 
   left: 30%; 
 }
 

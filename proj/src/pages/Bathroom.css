@@ -37,13 +37,13 @@
 
   .showerhead-section{
     position: absolute;
-    top: 10%; 
-    left: 60%; 
+    top: 20%; 
+    left: 34%; 
   }
   .tileitems-section{
     position: absolute;
     top: 40%; 
-    left: 75%; 
+    left: 20%; 
   }
   @media (max-width: 800px) {
     .showerhead-section,

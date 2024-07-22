@@ -2,7 +2,7 @@
     background-image: url('../../public/homepage.jpg');
     background-position: center;
     background-size: cover; 
-    height: 35vh;
+    height: 30vh;
     width: 100vw;
     display: flex;
     flex-direction: column;
@@ -62,4 +62,23 @@
   margin-top: 20px;
   border-top: 1px solid #444;
   padding-top: 10px;
+}
+
+
+@media (max-width: 800px) {
+  .footer-background {
+  height: 45vh;
+  }
+
+  .partner-logos img {
+    width: 90px;
+    height: 80px;
+    padding: 10px;
+  }
+  
+  .social-icons a img {
+    width: 50px;
+    height: 50px;
+    padding:10px;
+  }
 }
