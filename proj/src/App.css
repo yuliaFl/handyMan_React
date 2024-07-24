@@ -66,7 +66,7 @@
   list-style-type: none;
   padding: 0;
   margin: 0;
-  background-color: rgba(240, 241, 217, 0.5);
+  background-color:#333; 
   left: -160px;
   border-radius: 20px;
   text-shadow: none;
@@ -80,12 +80,12 @@
   list-style-type: none;
   margin: 0;
   padding: 0;
-  color: #023e8a !important;
+  color: white;
 }
 
 .App .dropdown-content ul li {
-  color: #023e8a !important;
   padding: 8px 0; 
+  color: white;
 }
 
 @media (max-width: 800px) {
@@ -145,6 +145,22 @@
   
   .message {
     font-size: 15px !important;
+  }
+}
+
+.page-header {
+  font-size: 60px;
+}
+
+.message {
+  font-size: 35px;
+}
+
+@media (min-width: 800px) {
+  .App .dropdown-content {
+    left: auto; /* Reset left */
+    right: -160px; /* Align to the right of the button */
+    top: 0;
   }
 }
 

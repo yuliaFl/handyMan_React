@@ -6,11 +6,12 @@
     width: 100vw;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     color: white;
     text-shadow: 1px 1px 2px black;
     position: relative;
+    padding: 20px;
+    justify-content: flex-start;
   }
   
   .contact-background::before {
@@ -90,8 +91,31 @@ input[type="submit"] {
 
 .error-message{
     font-size: 18px;
+    text-align: center;
+    margin: 20px 0;
 }
 
 .contact-info{
   font-size: 18px;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .contact-background {
+      padding: 20px;
+      height: auto;
+      justify-content: flex-start;
+  }
+
+  form {
+      padding: 10px;
+  }
+
+  .phone-link, .email-link {
+      font-size: 1.2em;
+  }
+
+  .error-message, .contact-info {
+      font-size: 16px;
+  }
 }
