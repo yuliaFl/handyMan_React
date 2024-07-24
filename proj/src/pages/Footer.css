@@ -2,7 +2,7 @@
     background-image: url('../../public/homepage.jpg');
     background-position: center;
     background-size: cover; 
-    height: 30vh;
+    height: 50vh;
     width: 100vw;
     display: flex;
     flex-direction: column;

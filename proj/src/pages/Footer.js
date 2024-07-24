@@ -10,8 +10,7 @@ function Footer() {
             <h2>About Us</h2>
             <p>
               We provide top-notch handyman services to meet all your home
-              repair needs. Our experienced team ensures quality and reliability
-              in every job.
+              repair needs
             </p>
           </div>
           <div className="footer-section partners">
@@ -25,7 +24,7 @@ function Footer() {
             <h2>Contact Us</h2>
             <p>
               Email:{" "}
-              <a href="handyman.fixed.it@gmail.com" className="email-link">
+              <a href="mailto:handyman.fixed.it@gmail.com" className="email-link">
                 handyman.fixed.it@gmail.com
               </a>
             </p>

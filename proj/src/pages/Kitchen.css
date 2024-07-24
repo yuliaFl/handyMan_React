@@ -5,9 +5,8 @@
   height: 100vh;
   width: 100vw;
   display: flex;
-  flex-direction: column;
   justify-content: center;
-  align-items: center;
+  flex-direction: column;
   color: white;
   position: relative;
   text-shadow: 1px 1px 2px black;
@@ -34,7 +33,7 @@
   justify-content: center;
   align-items: center;
   z-index: 3;
-  transition: left 0.3s ease; 
+  transition: left 0.3s ease;
 }
 
 .sink-section {
@@ -67,7 +66,7 @@
   .backsplash-section,
   .faucet-section,
   .kitchen-background .door-section {
-    left: calc(100vw - 200px); 
+    left: calc(100vw - 200px);
     margin-left: 20px;
   }
   .kitchen-background .door-section {
@@ -76,7 +75,6 @@
   .faucet-section {
     top: 42%;
   }
-
   .backsplash-section {
     top: 22%;
   }
@@ -87,8 +85,7 @@
   .backsplash-section button,
   .faucet-section button,
   .door-section button {
-    background-color: #333; 
-    color: #fff; 
+    background-color: #333;
+    color: #fff;
   }
 }
-
