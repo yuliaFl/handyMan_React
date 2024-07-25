@@ -16,7 +16,7 @@ function Kitchen() {
       </header>
       <main>
         <div className="message">
-          Hover over a part of the room that I can help you with
+          Hover over a part of the <br></br> room that I can help you with
         </div>
         <div className="sink-section">
           <DropdownButton label="Sink" items={sinkItems} />

@@ -17,7 +17,7 @@ function Bedroom() {
       </header>
       <main>
         <div className="message">
-          Hover over a part of the room that I can help you with
+          Hover over a part of the <br></br> room that I can help you with
         </div>
         <div className="wall-section">
           <DropdownButton label="Wall" items={walltems} />

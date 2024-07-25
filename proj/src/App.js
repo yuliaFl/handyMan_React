@@ -10,6 +10,7 @@ import Kitchen from './pages/Kitchen';
 import Contact from './pages/Contact';
 import Outdoor from './pages/Outdoor';
 import Footer from './pages/Footer';
+//import Reviews from './components/GoogleReviews';
 
 function MainPage() {
   return (
@@ -55,3 +56,10 @@ function App() {
 }
 
 export default App;
+
+
+/*
+    <div id="Reviews">
+        <Reviews />
+      </div>
+*/

@@ -148,13 +148,6 @@
   }
 }
 
-.page-header {
-  font-size: 60px;
-}
-
-.message {
-  font-size: 35px;
-}
 
 @media (min-width: 800px) {
   .App .dropdown-content {
@@ -171,3 +164,4 @@
 .message {
   font-size: 35px;
 }
+
