@@ -31,9 +31,6 @@ function MainPage() {
       <div id="Outdoor">
         <Outdoor />
       </div>
-      <div id="Footer">
-        <Footer />
-      </div>
     </div>
   );
 }
@@ -44,8 +41,9 @@ function MainPage() {
 function App() {
   return (
     <Router>
-      <div className="App">
-        <Navbar />
+    <div className="App">
+      <Navbar />
+      <div className="content">
         <Routes>
           <Route path="/" element={<MainPage />} />
           <Route path="/outdoor" element={<Outdoor />} />
@@ -53,7 +51,9 @@ function App() {
           <Route path="/about" element={<About />} />
         </Routes>
       </div>
-    </Router>
+      <Footer />
+    </div>
+  </Router>
   );
 }
 
