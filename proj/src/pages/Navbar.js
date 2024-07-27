@@ -16,10 +16,8 @@ function Navbar() {
   return (
     <nav className="navbar">
       <ul className="nav-links">
-        <li className="home-link">
-          <Link to="/">
-          <img src={`${process.env.PUBLIC_URL}/logo.png`} alt="Logo" className="logo" />
-          </Link>
+      <li>
+          <Link to="/outdoor">Outdoor</Link>
         </li>
         <li
           className="dropdown"
@@ -43,8 +41,13 @@ function Navbar() {
             </ul>
           )}
         </li>
+        <li className="home-link">
+          <Link to="/">
+          <img src={`${process.env.PUBLIC_URL}/logo.png`} alt="Logo" className="logo" />
+          </Link>
+        </li>
         <li>
-          <Link to="/outdoor">Outdoor</Link>
+          <Link to="/about">About</Link>
         </li>
         <li>
           <Link to="/contact">Contact</Link>

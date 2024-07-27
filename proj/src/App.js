@@ -10,6 +10,7 @@ import Kitchen from './pages/Kitchen';
 import Contact from './pages/Contact';
 import Outdoor from './pages/Outdoor';
 import Footer from './pages/Footer';
+import About from './pages/About';
 //import Reviews from './components/GoogleReviews';
 
 function MainPage() {
@@ -49,6 +50,7 @@ function App() {
           <Route path="/" element={<MainPage />} />
           <Route path="/outdoor" element={<Outdoor />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/about" element={<About />} />
         </Routes>
       </div>
     </Router>

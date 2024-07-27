@@ -70,36 +70,32 @@ input[type="submit"] {
     background-color: #45a049;
   }
 
-  .phone-link {
-    color: white;
-    text-decoration: none;
-    font-size: 1.5em;
-    margin-top: 20px;
+  .phone-link,
+  .email-link {
+      color: #023e8a;
+      text-decoration: none;
+      font-size: 1.5em;
+      margin-top: 20px;
+  }
+  
+  .phone-link:hover,
+  .email-link:hover {
+      text-decoration: underline;
+  }
+  
+  .error-message {
+      font-size: 20px;
+      text-align: center;
+      margin: 25px;
+  }
+  
+  .contact-info {
+      font-size: 18px;
+      text-align: center;
+  }
+.contact-page-header{
+  font-size: 25px;
 }
-
-.phone-link:hover {
-    text-decoration: underline;
-}
-
-.phone-link {
-  color: #023e8a;
-}
-
-.email-link {
-  color: #023e8a;
-}
-
-.error-message{
-    font-size: 18px;
-    text-align: center;
-    margin: 20px 0;
-}
-
-.contact-info{
-  font-size: 18px;
-  text-align: center;
-}
-
 @media (max-width: 768px) {
   .contact-background {
       padding: 20px;
@@ -111,11 +107,21 @@ input[type="submit"] {
       padding: 10px;
   }
 
-  .phone-link, .email-link {
+  .phone-link,
+  .email-link {
       font-size: 1.2em;
   }
 
-  .error-message, .contact-info {
+  .error-message,
+  .contact-info {
       font-size: 16px;
+  }
+}
+
+@media (max-width: 375px) {
+  .contact-background {
+      padding: 25px;
+      height: auto;
+      justify-content: flex-start;
   }
 }

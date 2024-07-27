@@ -90,7 +90,7 @@
   }
 
   .nav-links {
-    gap: 14px;
+    gap: 10px;
   }
 
   .nav-links li a {
@@ -106,7 +106,23 @@
   }
 
   .nav-links {
-    gap: 12px;
+    gap: 2px;
+  }
+
+  .nav-links li a {
+    padding: 6px;
+  }
+}
+
+@media (max-width: 430px) {
+  .navbar {
+    font-size: 18px;
+    padding: 1px;
+    top: 20px;
+  }
+
+  .nav-links {
+    gap: 1px;
   }
 
   .nav-links li a {
@@ -116,24 +132,23 @@
 
 @media (max-width: 375px) {
   .navbar {
-    font-size: 18px;
-    padding: 1px;
+    font-size: 15px;
     top: 8px;
   }
 
   .nav-links {
-    gap: 10px;
+    gap: 8px;
   }
 
   .nav-links li a {
-    padding: 6px;
+    padding: 1px;
   }
 
   .logo {
-    height: 30px;
+    height: 40px;
   }
 }
 
 .logo {
-  height: 70px;
+  height: 50px;
 }
