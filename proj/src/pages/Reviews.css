@@ -1,0 +1,49 @@
+.reviews-background {
+  background-image: url('../../public/background.jpg');
+  background-position: center;
+  background-size: cover; 
+  height: 60vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-shadow: 1px 1px 2px black;
+  position: relative;
+  opacity: 100%;
+}
+
+.reviews-content {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  padding: calc(70px + 20px) 20px 20px; 
+  padding: 20px;
+  max-width: 90%;
+  width: 600px;
+}
+
+.review-slide {
+  padding: 10px;
+}
+
+.review-image {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+.review-page-header {
+  font-size: 55px;
+  margin-bottom: 20px;
+}
+
+/* Media Queries */
+@media (max-width: 1024px) {
+  .review-image {
+    max-width: 80%;
+  }
+  .review-page-header {
+    font-size: 45px;
+  }
+}

@@ -1,5 +1,5 @@
 .footer-background {
-    background-image: url('../../public/homepage.jpg');
+    background-image: url('../../public/background.jpg');
     background-position: center;
     background-size: cover; 
     height: 50vh;
@@ -65,7 +65,7 @@
 }
 
 .email-link, .phone-link {
-  color:#023e8a;
+  color:white;
   text-decoration: none;
 }
 

@@ -11,6 +11,7 @@ import Contact from './pages/Contact';
 import Outdoor from './pages/Outdoor';
 import Footer from './pages/Footer';
 import About from './pages/About';
+import Reviews from './pages/Reviews';
 //import Reviews from './components/GoogleReviews';
 
 function MainPage() {
@@ -30,6 +31,9 @@ function MainPage() {
       </div>
       <div id="Outdoor">
         <Outdoor />
+      </div>
+      <div id="Reviews">
+        <Reviews />
       </div>
     </div>
   );
