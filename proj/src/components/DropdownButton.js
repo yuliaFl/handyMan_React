@@ -24,7 +24,6 @@ const DropdownButton = ({ label, items, onClick }) => {
         className="dropdown-button"
         onMouseEnter={handleMouseEnter}
         onMouseLeave={handleMouseLeave}
-        onClick={handleClick}
       >
         {label}
       </button>
