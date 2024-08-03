@@ -59,7 +59,7 @@
 
 .kitchen-background .door-section {
   position: absolute;
-  top: 32%;
+  top: 25%;
   left: 7%;
 }
 
@@ -72,16 +72,16 @@
     margin-left: 20px;
   }
   .kitchen-background .door-section {
-    top: 32%;
+    top: 55%;
   }
   .faucet-section {
-    top: 42%;
+    top: 35%;
   }
   .backsplash-section {
-    top: 22%;
+    top: 65%;
   }
   .sink-section {
-    top: 52%;
+    top: 45%;
   }
   .sink-section button,
   .backsplash-section button,

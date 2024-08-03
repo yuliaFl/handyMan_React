@@ -43,8 +43,8 @@
   }
   .tileitems-section{
     position: absolute;
-    top: 40%; 
-    left: 20%; 
+    top: 28%; 
+    left: 16%; 
   }
   @media (max-width: 800px) {
     .showerhead-section,
@@ -53,10 +53,10 @@
       margin-left: 20px; 
     }
     .showerhead-section {
-      top: 30%;
+      top: 45%;
     }
     .tileitems-section {
-      top: 45%;
+      top: 55%;
     }
   
   }

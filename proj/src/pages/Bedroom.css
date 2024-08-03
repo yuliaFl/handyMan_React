@@ -58,7 +58,7 @@
 }
 .curtians-section{
   position: absolute;
-  top: 30%; 
+  top: 26%; 
   left: 1%; 
 }
 .doorhandle-section{
@@ -90,21 +90,21 @@
   }
 
   .fan-section{
-    top:15%;
-  }
-  .wall-section{
     top:25%;
   }
-  .curtians-section{
+  .wall-section{
     top:35%;
   }
-  .doorhandle-section{
+  .curtians-section{
     top:45%;
   }
-  .slidingdoor-section{
+  .doorhandle-section{
     top:55%;
   }
-  .furnitureAssemble-section{
+  .slidingdoor-section{
     top:65%;
+  }
+  .furnitureAssemble-section{
+    top:75%;
   }
 }

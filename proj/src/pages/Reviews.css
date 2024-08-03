@@ -2,7 +2,7 @@
   background-image: url('../../public/background.jpg');
   background-position: center;
   background-size: cover; 
-  height: 60vh;
+  height: 70vh;
   width: 100vw;
   display: flex;
   flex-direction: column;
@@ -41,9 +41,13 @@
 /* Media Queries */
 @media (max-width: 1024px) {
   .review-image {
-    max-width: 80%;
+    max-width: 100%;
   }
   .review-page-header {
     font-size: 45px;
   }
+  .reviews-background{
+    height: 55vh;
+  }
+  
 }
