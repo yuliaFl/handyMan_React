@@ -1,6 +1,6 @@
 import React from "react";
 import DropdownButton from "../components/DropdownButton";
-import "./Outdoor.css";
+import "../styles/Outdoor.css";
 
 function Outdoor() {
   const roofItems = ["Repair", "Replace"];

@@ -1,5 +1,5 @@
 import React from "react";
-import "./Bathroom.css";
+import "../styles/Bathroom.css";
 import DropdownButton from "../components/DropdownButton";
 
 function Bathroom() {

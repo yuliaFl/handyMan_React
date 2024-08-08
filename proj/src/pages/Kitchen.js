@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import DropdownButton from "../components/DropdownButton";
 import Form from "../components/Form";
-import "./Kitchen.css";
+import "../styles/Kitchen.css";
 
 function Kitchen() {
   const sinkItems = ["Change Sink", "Clogged Sink"];
