@@ -16,8 +16,8 @@
   position: relative;
   z-index: 2;
   text-align: center;
-  padding: calc(70px + 20px) 20px 20px; 
-  padding: 20px;
+
+  padding: 15px;
   max-width: 90%;
   width: 600px;
 }
@@ -28,14 +28,19 @@
 
 .review-image {
   max-width: 100%;
-  border-radius: 10px;
+  border-radius: 5px;
 }
 
-.review-page-header {
-  margin-top:15px;
-  font-size: 55px;
-  margin-bottom: 20px;
+
+.review-heading{
+  font-weight: bold;
+  margin: 20px;
+  font-size: 40px;
+  text-underline-offset: 8px;
+  text-align: center;
+  padding-top: 20px;
 }
+
 
 /* Media Queries */
 @media (max-width: 1024px) {

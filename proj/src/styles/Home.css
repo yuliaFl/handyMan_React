@@ -1,27 +1,30 @@
 .home-background {
   background-position: center;
-  background-size: cover; 
-  height: 100vh;
+  background-size: cover;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  justify-content: center; /* Initially center for smaller screens */
   align-items: center;
-  color: white;
-  position: relative;
   padding: 2rem;
   font-size: 1rem;
+  position: relative;
   z-index: 100;
   text-align: center;
+  color: white;
+  height: 100vh;
 }
 
 .home-container{
-  position: relative;
-  z-index: 2;
+  font-size: 1.2rem;
+  line-height: 1.6;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 12px;
+  max-width: 900px;
   text-align: center;
-  padding: calc(70px + 20px) 20px 20px; 
-  padding: 20px;
-  width: 80%;
-  font-size: 1.5rem;
+  transition: transform 0.3s ease;
+  margin-top: 15px;
 }
 
 .main-tittle {
@@ -48,7 +51,6 @@
 }
 
 .description {
-  padding: 20px;
   border-radius: 10px;
   text-shadow: none;
 }
@@ -65,6 +67,7 @@
   transition: transform 0.3s ease;
 }
 /* Responsive Design */
+/*PERFECT FOR LAPTOP*/
 @media (max-width: 768px) {
   .home-background {
   height: 100vh;
@@ -74,7 +77,7 @@
   }
 
   .main-tittle  {
-    margin-top: 5rem;
+    margin-top: 8rem;
     font-weight: bold;
     font-size: 2.5rem;
   }
@@ -85,7 +88,39 @@
   }
 
   .description {
-    padding: 18px;
+    padding: 15px;
+  }
+
+  .home-title {
+    font-size: 1.2rem;
+  }
+
+  .home-content {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    max-width: 100%; /* Responsive width */
+    transition: transform 0.3s ease;
+  }
+}
+@media (max-width: 450px) {
+  .home-background {
+  height: 115vh;
+  }
+  .home-container{
+    width: 90%;
+  }
+
+  .main-tittle  {
+    margin-top: 6rem;
+    font-weight: bold;
+    font-size: 2.5rem;
+  }
+
+  #estimate-button {
+    padding: 12px 24px; 
+    font-size: 14px;
   }
 
   .home-title {

@@ -5,6 +5,10 @@
   box-sizing: border-box;
 }
 
+.logo {
+  height: 90px;
+}
+
 /* Basic styles for the navbar */
 .navbar {
   background-color: #D2C9B9;
@@ -117,38 +121,17 @@
 @media (max-width: 430px) {
   .navbar {
     font-size: 18px;
-    padding: 1px;
     top: 20px;
   }
 
   .nav-links {
-    gap: 1px;
+    gap: 2px;
   }
 
   .nav-links li a {
     padding: 6px;
   }
-}
-
-@media (max-width: 375px) {
-  .navbar {
-    font-size: 15px;
-    top: 8px;
-  }
-
-  .nav-links {
-    gap: 8px;
-  }
-
-  .nav-links li a {
-    padding: 1px;
-  }
-
   .logo {
-    height: 40px;
+    height: 50px;
   }
-}
-
-.logo {
-  height: 90px;
 }

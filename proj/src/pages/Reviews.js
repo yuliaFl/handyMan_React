@@ -38,7 +38,7 @@ function Reviews() {
   return (
     <div className="reviews-background">
       <div className="reviews-container">
-      <div className="review-page-header">Customer Reviews</div>
+      <div className="review-heading">Customer Reviews</div>
         <ReviewCarousel />
       </div>
     </div>
