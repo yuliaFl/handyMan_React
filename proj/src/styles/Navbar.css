@@ -11,8 +11,8 @@
 
 /* Basic styles for the navbar */
 .navbar {
-  background-color: #D2C9B9;
-  height: 90px;
+  background-color: #e5e7eb;
+  height: 100px;
   top: 24px;
   display: flex;
   justify-content: center; /* Centers the links horizontally */
@@ -27,6 +27,7 @@
   padding: 1px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   font-size: 25px;
+  display: block;
 }
 
 /* Hover effect for nav links */
@@ -46,7 +47,8 @@
 
 /* Individual nav link styles */
 .nav-links li a {
-  color: white;
+  display: block;
+  color: #333333;
   text-decoration: none;
   padding: 8px;
 }
@@ -59,7 +61,7 @@
 .navbar .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #D2C9B9;
+  background-color:#e5e7eb;
   z-index: 1;
   border-radius: 4px;
   top: 100%; /* Dropdown appears below the button */

@@ -1,22 +1,29 @@
+/* General Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .home-background {
   background-position: center;
   background-size: cover;
   display: flex;
-  justify-content: center; /* Initially center for smaller screens */
+  justify-content: center;
   align-items: center;
   padding: 2rem;
   font-size: 1rem;
   position: relative;
   z-index: 100;
   text-align: center;
-  color: white;
+  color: #333333;
   height: 100vh;
 }
 
-.home-container{
-  font-size: 1.2rem;
+.home-container {
+  font-size: 1.1rem;
   line-height: 1.6;
-  color: white;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -27,37 +34,42 @@
   margin-top: 15px;
 }
 
-.main-tittle {
+.main-title {
   margin-top: 5rem;
   font-weight: bold;
   font-size: 3rem;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
 }
 
-#estimate-button{
-  background-color: rgba(240, 241, 217, 0.1);
-  color: white; 
-  padding: 15px 32px; 
-  font-size: 16px; 
-  border: none; 
-  cursor: pointer; 
-  border-radius: 20px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
-  margin: 20px 0;
+#estimate-button {
+  background-color: #007BFF; /* Golden accent */
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 1.5rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  display: block;
+  margin: 0 auto;
 }
 
 #estimate-button:hover {
-  background-color: #333333; 
+  background-color: #0056B3; /* Slightly darker gold on hover */
+  transform: translateY(-3px);
 }
 
 .description {
   border-radius: 10px;
   text-shadow: none;
 }
+
 .home-title {
   font-weight: bold;
   font-size: 1.5rem;
+  margin-top: 2rem;
 }
+
 .home-content {
   font-size: 1.2rem;
   line-height: 1.6;
@@ -66,24 +78,27 @@
   max-width: 100%; /* Responsive width */
   transition: transform 0.3s ease;
 }
+
 /* Responsive Design */
-/*PERFECT FOR LAPTOP*/
+
+/* Perfect for Laptop */
 @media (max-width: 768px) {
   .home-background {
-  height: 100vh;
+    height: 100vh;
   }
-  .home-container{
+
+  .home-container {
     width: 90%;
   }
 
-  .main-tittle  {
+  .main-title {
     margin-top: 8rem;
     font-weight: bold;
     font-size: 2.5rem;
   }
 
   #estimate-button {
-    padding: 12px 24px; 
+    padding: 12px 24px;
     font-size: 14px;
   }
 
@@ -98,28 +113,26 @@
   .home-content {
     font-size: 1.2rem;
     line-height: 1.6;
-    display: flex;
-    flex-direction: column;
-    max-width: 100%; /* Responsive width */
-    transition: transform 0.3s ease;
   }
 }
+
 @media (max-width: 450px) {
   .home-background {
-  height: 115vh;
+    height: 115vh;
   }
-  .home-container{
+
+  .home-container {
     width: 90%;
   }
 
-  .main-tittle  {
+  .main-title {
     margin-top: 6rem;
     font-weight: bold;
     font-size: 2.5rem;
   }
 
   #estimate-button {
-    padding: 12px 24px; 
+    padding: 12px 24px;
     font-size: 14px;
   }
 
@@ -130,9 +143,5 @@
   .home-content {
     font-size: 1.2rem;
     line-height: 1.6;
-    display: flex;
-    flex-direction: column;
-    max-width: 100%; /* Responsive width */
-    transition: transform 0.3s ease;
   }
 }

@@ -83,7 +83,7 @@ function About() {
           </div>
         </div>
         <br></br>
-        <button id="estimate-button" onClick={redirectPage}>
+        <button id="about-button" onClick={redirectPage}>
             Contact!
           </button>
       </div>
