@@ -12,7 +12,7 @@
   opacity: 100%;
 }
 
-.home-content {
+.home-container{
   position: relative;
   z-index: 2;
   text-align: center;
@@ -20,6 +20,13 @@
   padding: 20px;
   width: 80%;
   font-size: 1.5rem;
+}
+
+.main-tittle {
+  margin-top: 5rem;
+  font-weight: bold;
+  font-size: 3rem;
+  margin-bottom: 1rem;
 }
 
 #estimate-button{
@@ -37,37 +44,26 @@
 #estimate-button:hover {
   background-color: #333333; 
 }
-.hometitle1 {
-  margin-top: 6rem;
-  font-weight: bold;
-  font-size: 3rem;
-  margin-bottom: 1rem;
-}
-.handyman-description {
+
+.description {
   padding: 20px;
   border-radius: 10px;
   text-shadow: none;
 }
-.hometitle {
+.home-title {
   font-weight: bold;
   font-size: 1.5rem;
 }
-.home-container {
+.home-content {
   font-size: 1.2rem;
   line-height: 1.6;
-  padding: 1.5rem;
   display: flex;
   flex-direction: column;
   max-width: 100%; /* Responsive width */
   transition: transform 0.3s ease;
-
-}
-.handyman-description .content {
-  color: white; 
   line-height: 1.6;
-  margin-bottom: 10px;
-}
 
+}
 /* Responsive Design */
 @media (max-width: 768px) {
   .home-page-header {
@@ -91,5 +87,3 @@
     padding: calc(70px + 20px) 20px 20px;
   }
 }
-
-/*background-image: url('../../public/homepage.jpg');*/

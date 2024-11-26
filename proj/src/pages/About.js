@@ -10,8 +10,8 @@ function About() {
   };
   return (
     <div className="about-background">
-      <div className="about-content">
-        <div class="title">About Us</div>
+      <div className="about-container">
+        <div class="about-heading">About Us</div>
         <div className="content">
           Welcome to FixIt Handyman Solutions, your trusted partner in
           renovation and handicrafts for both interior and exterior projects.
@@ -81,10 +81,10 @@ function About() {
             Contact us today to discuss your next project and see how we can
             turn your vision into reality.
           </div>
-          <button id="estimate-button" onClick={redirectPage}>
+        </div>
+        <button id="estimate-button" onClick={redirectPage}>
             Contact!
           </button>
-        </div>
       </div>
     </div>
   );
