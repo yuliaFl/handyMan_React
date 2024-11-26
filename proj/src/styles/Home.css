@@ -2,14 +2,16 @@
   background-position: center;
   background-size: cover; 
   height: 100vh;
-  width: 100vw;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   color: white;
   position: relative;
-  opacity: 100%;
+  padding: 2rem;
+  font-size: 1rem;
+  z-index: 100;
+  text-align: center;
 }
 
 .home-container{
@@ -61,13 +63,20 @@
   flex-direction: column;
   max-width: 100%; /* Responsive width */
   transition: transform 0.3s ease;
-  line-height: 1.6;
-
 }
 /* Responsive Design */
 @media (max-width: 768px) {
-  .home-page-header {
-    font-size: 36px;
+  .home-background {
+  height: 100vh;
+  }
+  .home-container{
+    width: 90%;
+  }
+
+  .main-tittle  {
+    margin-top: 5rem;
+    font-weight: bold;
+    font-size: 2.5rem;
   }
 
   #estimate-button {
@@ -75,15 +84,20 @@
     font-size: 14px;
   }
 
-  .handyman-description {
-    padding: 15px;
+  .description {
+    padding: 18px;
   }
 
-  .handyman-description .title {
-    font-size: 18px;
+  .home-title {
+    font-size: 1.2rem;
   }
 
   .home-content {
-    padding: calc(70px + 20px) 20px 20px;
+    font-size: 1.2rem;
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    max-width: 100%; /* Responsive width */
+    transition: transform 0.3s ease;
   }
 }

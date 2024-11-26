@@ -6,13 +6,6 @@ function Footer() {
     <footer className="footer">
       <div className="footer-background">
         <div className="footer-container">
-          <div className="footer-section about-us">
-            <h2>About Us</h2>
-            <p>
-              We provide top-notch handyman services to meet all your home
-              repair needs
-            </p>
-          </div>
           <div className="footer-section partners">
             <h2>Our Partners</h2>
             <div className="partner-logos">
@@ -23,13 +16,11 @@ function Footer() {
           <div className="footer-section contact">
             <h2>Contact Us</h2>
             <p>
-              Email:{" "}
               <a href="mailto:handyman.fixed.it@gmail.com" className="email-link">
                 handyman.fixed.it@gmail.com
               </a>
             </p>
             <p>
-              Phone:{" "}
               <a href="tel:+16479373558" className="phone-link">
                 +1 (647)937-3558
               </a>

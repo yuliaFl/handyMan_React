@@ -12,7 +12,7 @@ function About() {
     <div className="about-background">
       <div className="about-container">
         <div class="about-heading">About Us</div>
-        <div className="content">
+        <div className="about-content">
           Welcome to FixIt Handyman Solutions, your trusted partner in
           renovation and handicrafts for both interior and exterior projects.
           With years of experience and a commitment to excellence, we transform
@@ -22,16 +22,16 @@ function About() {
         </div>
         <br />
         <div className="experience">
-          <div class="title">Our Experience </div>
+          <div class="about-title">Our Experience </div>
           <div className="content-experience">
-            <div class="title-content-experience">
+            <div class="name">
               General Contractor for Hazelton Real Estate Inc.{" "}
             </div>
             Over 4 years of managing and executing renovation projects, ensuring
             top-notch quality and timely completion.
             <br />
             <br />
-            <div class="title-content-experience">
+            <div class="name">
               {" "}
               General Contractor for Woodbine Family Health Team{" "}
             </div>
@@ -39,14 +39,14 @@ function About() {
             healthcare facilities to better serve the community.
             <br />
             <br />
-            <div class="title-content-experience">
+            <div class="name">
               Collaborations with Drive Test{" "}
             </div>
             Provided expert renovation and handyman services, contributing to
             the efficiency and aesthetics of their facilities.
             <br />
             <br />
-            <div class="title-content-experience">
+            <div class="name">
               {" "}
               Prestigious Hotel Renovations{" "}
             </div>
@@ -56,7 +56,7 @@ function About() {
             guest experience.
             <br />
             <br />
-            <div class="title-content-experience">
+            <div class="name">
               {" "}
               Retail and Commercial Projects{" "}
             </div>
@@ -69,7 +69,7 @@ function About() {
           </div>
         </div>
         <div className="why-choose-us">
-          <div class="title">Why Choose Us?</div>
+          <div class="about-title">Why Choose Us?</div>
           <div className="content">
             Our dedication to craftsmanship and customer satisfaction sets us
             apart. Whether you need a complete renovation or minor handyman
@@ -82,6 +82,7 @@ function About() {
             turn your vision into reality.
           </div>
         </div>
+        <br></br>
         <button id="estimate-button" onClick={redirectPage}>
             Contact!
           </button>

@@ -9,12 +9,11 @@
   position: relative;
   z-index: 100;
   text-align: center;
-
 }
+
 .about-container {
- font-size: 1.2rem;
+  font-size: 1.2rem;
   line-height: 1.6;
-  padding: 1.5rem;
   color: white;
   display: flex;
   flex-direction: column;
@@ -23,6 +22,7 @@
   max-width: 900px;
   text-align: center;
   transition: transform 0.3s ease;
+  margin-top: 15px;
 }
 
 .about-heading {
@@ -35,14 +35,15 @@
   padding-top: 50px;
 }
 
-.about-content .title {
+.about-title {
   color:white; 
   font-size: 25px;
   margin-bottom: 10px;
+  font-weight: bold;
+  text-decoration: underline;
 }
 
-
-.title-content-experience{
+.name{
   font-size: 18px;
   font-weight: bold;
 }
@@ -64,7 +65,7 @@
 }
 
 @media (max-width: 1024px) {
-  .title {
+  .about-heading{
     font-size: 2em;
   }
 
@@ -75,14 +76,14 @@
 
 @media (max-width: 768px) {
   .about-background {
-    padding: 30px 15px;
+    padding: 35px 20px;
   }
 
-  .about-content {
+  .about-container {
     padding: 15px;
   }
 
-  .title {
+  .about-heading{
     font-size: 1.8em;
   }
 
@@ -93,14 +94,14 @@
 
 @media (max-width: 375px) {
   .about-background {
-    padding: 20px 10px;
+    padding: 45px 15px;
   }
 
-  .about-content {
+.about-container  {
     padding: 10px;
   }
 
-  .title {
+  .about-heading{
     font-size: 1.5em;
   }
 
