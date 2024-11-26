@@ -1,5 +1,4 @@
 .home-background {
-  background-image: url('../../public/homepage.jpg');
   background-position: center;
   background-size: cover; 
   height: 100vh;
@@ -9,21 +8,8 @@
   justify-content: center;
   align-items: center;
   color: white;
-  text-shadow: 1px 1px 2px black;
   position: relative;
   opacity: 100%;
-}
-
-.home-background::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.11); 
-  z-index: 1;
-  pointer-events: none;
 }
 
 .home-content {
@@ -32,8 +18,8 @@
   text-align: center;
   padding: calc(70px + 20px) 20px 20px; 
   padding: 20px;
-  max-width: 90%;
-  width: 600px;
+  width: 80%;
+  font-size: 1.5rem;
 }
 
 #estimate-button{
@@ -51,25 +37,31 @@
 #estimate-button:hover {
   background-color: #333333; 
 }
-
-.home-page-header {
-  font-size: 55px;
-  margin-bottom: 20px;
+.hometitle1 {
+  margin-top: 6rem;
+  font-weight: bold;
+  font-size: 3rem;
+  margin-bottom: 1rem;
 }
-
 .handyman-description {
-  background-color: rgba(240, 241, 217, 0.1);
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
   padding: 20px;
   border-radius: 10px;
   text-shadow: none;
 }
-.handyman-description .title {
-  color:white; 
-  font-size: 20px;
-  margin-bottom: 10px;
+.hometitle {
+  font-weight: bold;
+  font-size: 1.5rem;
 }
+.home-container {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  max-width: 100%; /* Responsive width */
+  transition: transform 0.3s ease;
 
+}
 .handyman-description .content {
   color: white; 
   line-height: 1.6;
@@ -99,3 +91,5 @@
     padding: calc(70px + 20px) 20px 20px;
   }
 }
+
+/*background-image: url('../../public/homepage.jpg');*/

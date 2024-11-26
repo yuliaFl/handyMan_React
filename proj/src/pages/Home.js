@@ -11,12 +11,12 @@ function Home() {
   return (
     <div className="home-background">
     <div className="home-content">
-        <div className="home-page-header">FixIt Handyman Solutions</div>
+        <div className="hometitle1">FixIt Handyman Solutions</div>
         <button id="estimate-button" onClick={redirectPage}>
-          Get Your Free Estimate
+          Get Your Free Estimate!
         </button>
-        <div class="handyman-description">
-          <div class="title">
+        <div class="home-container">
+          <div class="hometitle">
             Reliable Handyman Services for All Your Home Needs
           </div>
           <div className="content">

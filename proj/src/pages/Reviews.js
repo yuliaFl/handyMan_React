@@ -37,7 +37,7 @@ const ReviewCarousel = () => {
 function Reviews() {
   return (
     <div className="reviews-background">
-      <div className="reviews-content">
+      <div className="reviews-container">
       <div className="review-page-header">Customer Reviews</div>
         <ReviewCarousel />
       </div>
