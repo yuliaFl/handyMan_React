@@ -1,33 +1,24 @@
-/* Reset some default browser styles */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 .logo {
   height: 90px;
 }
 
 /* Basic styles for the navbar */
-.navbar {
-  background-color: #e5e7eb;
-  height: 100px;
-  top: 24px;
-  display: flex;
-  justify-content: center; /* Centers the links horizontally */
-  align-items: center; /* Centers the links vertically */
-  z-index: 999; /* Sits above other elements */
-  font-size: 18px;
-  width: 100%;
-  box-sizing: border-box;
-  position: fixed;
-  gap: 20px; /* Space between links */
-  list-style-type: none;
-  padding: 1px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-  font-size: 25px;
-  display: block;
+.navbar{
+height: 90px;
+align-items: center;
+background-color: #d2c9b9;
+box-shadow: 0 4px 12px #0000001a;
+box-sizing: border-box;
+display: flex;
+font-size: 26px;
+gap: 20px;
+justify-content: center;
+list-style-type: none;
+padding: 1px;
+position: fixed;
+top: 24px;
+width: 100%;
+z-index: 999;
 }
 
 /* Hover effect for nav links */
@@ -48,9 +39,9 @@
 /* Individual nav link styles */
 .nav-links li a {
   display: block;
-  color: #333333;
+  color: white;
   text-decoration: none;
-  padding: 8px;
+  padding: 10px;
 }
 /* Dropdown styles specific to navbar */
 .navbar .dropdown {
@@ -96,11 +87,14 @@
   }
 
   .nav-links {
-    gap: 10px;
+    gap: 9px;
   }
 
   .nav-links li a {
     padding: 7px;
+  }
+  .logo {
+    height: 85px;
   }
 }
 
@@ -134,6 +128,6 @@
     padding: 6px;
   }
   .logo {
-    height: 50px;
+    height: 40px;
   }
 }

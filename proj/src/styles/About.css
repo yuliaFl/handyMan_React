@@ -28,7 +28,7 @@ body {
 
 /* Heading Styles */
 .about-heading {
-  margin-top:40px;
+  margin-top:50px;
   font-size: 2rem;
   font-weight: bold;
   margin-bottom: 20px;
@@ -87,6 +87,7 @@ body {
 
   .about-heading {
     font-size: 1.8rem;
+    margin-top: 60px;
   }
 
   .about-title {
@@ -102,6 +103,7 @@ body {
 @media (max-width: 480px) {
   .about-heading {
     font-size: 1.5rem;
+    margin-top: 70px;
   }
 
   .about-title {
