@@ -13,30 +13,20 @@
 }
 
 .reviews-container{
-  max-width: 90%;
-  padding: 15px;
   position: relative;
   z-index: 2;
   text-align: center;
   padding: 15px;
+  max-width: 90%;
   width: 600px;
 }
 
 .review-slide {
-  display: flex;
-  align-items: center; /* Vertically aligns arrows with the image */
-  justify-content: center; /* Centers the content */
-  gap: 10px; /* Adds proportional spacing between arrows and the image */
   padding: 10px;
 }
 
-.review-arrow {
-  font-size: 24px; /* Adjust size to be proportional to the image */
-  cursor: pointer;
-}
-
 .review-image {
-  max-width: 90%; /* Slightly smaller images */
+  max-width: 100%;
   border-radius: 5px;
 }
 
@@ -48,12 +38,10 @@
   text-align: center;
   padding-top: 20px;
 }
-
-
 /* Media Queries */
 @media (max-width: 1024px) {
   .review-image {
-    max-width: 85%; /* Slightly smaller for smaller screens */
+    max-width: 100%;
   }
   .review-page-header {
     font-size: 45px;

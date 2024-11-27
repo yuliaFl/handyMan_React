@@ -38,8 +38,8 @@ function Contact() {
           maintenance. Please use the information below to reach me:
         </div>
         <div className="contact-contact-info">
-          <p>Email: <a href="mailto:handyman.fixed.it@gmail.com" className="email-link">handyman.fixed.it@gmail.com</a></p>
-          <p>Mobile: <a href="tel:+16479373558" className="phone-link">+1 (647)937-3558</a></p>
+          <p>Email: <a href="mailto:handyman.fixed.it@gmail.com" className="c-email-link">handyman.fixed.it@gmail.com</a></p>
+          <p>Mobile: <a href="tel:+16479373558" className="c-phone-link">+1 (647)937-3558</a></p>
         </div>
         <form onSubmit={handleSubmit}>
           <div>

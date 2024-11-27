@@ -52,7 +52,7 @@ z-index: 999;
 .navbar .dropdown-content {
   display: none;
   position: absolute;
-  background-color:#e5e7eb;
+  background-color: #d2c9b9;
   z-index: 1;
   border-radius: 4px;
   top: 100%; /* Dropdown appears below the button */
