@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import "../styles/Contact.css";
+import ReCAPTCHA from "react-google-recaptcha";
+
 
 function Contact() {
 
@@ -100,7 +102,7 @@ function Contact() {
               onChange={handleChange}
             ></textarea>
           </div>
-          <div className="g-recaptcha" data-sitekey="6LewC4oqAAAAAGFLvJqYazYkLobXefoN09zgbMbO"></div>
+         <ReCAPTCHA sitekey="6LewC4oqAAAAAGFLvJqYazYkLobXefoN09zgbMbO" onChange={handleRecaptcha}/>
           {error && <p className="error-text">{error}</p>}
           <button>Send us a message! </button>
         </form>
