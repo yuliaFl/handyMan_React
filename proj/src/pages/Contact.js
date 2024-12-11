@@ -2,6 +2,20 @@ import React, { useState } from "react";
 import "../styles/Contact.css";
 
 function Contact() {
+
+  const [recaptchaToken, setRecaptchaToken] = useState("");
+
+  const handleRecaptcha = () => {
+    window.grecaptcha.ready(() => {
+      window.grecaptcha
+        .execute("6LewC4oqAAAAAGFLvJqYazYkLobXefoN09zgbMbO", { action: "submit" })
+        .then((token) => {
+          setRecaptchaToken(token);
+          handleSubmit();
+        });
+    });
+  };
+  
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -18,17 +32,35 @@ function Contact() {
   const handleSubmit = (e) => {
     e.preventDefault();
     const { name, email, message } = formData;
-
+  
     if (!name || !email || !message) {
       setError("All fields are required.");
       return;
     }
-
+  
+    if (!recaptchaToken) {
+      setError("Please complete the reCAPTCHA.");
+      return;
+    }
+  
     setError("");
-    // Add your form submission logic here
-    alert("Form submitted successfully!");
+    // Submit the data to the PHP server via a POST request
+    fetch("/email.php", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ ...formData, "g-recaptcha-response": recaptchaToken }),
+    })
+      .then((res) => res.json())
+      .then((data) => {
+        if (data.success) {
+          alert("Form submitted successfully!");
+        } else {
+          setError("Failed to submit the form. Please try again.");
+        }
+      })
+      .catch(() => setError("An error occurred while submitting the form."));
   };
-
+  
   return (
     <div className="contact-background">
       <div className="contact-container">
@@ -68,9 +100,9 @@ function Contact() {
               onChange={handleChange}
             ></textarea>
           </div>
-          <div className="g-recaptcha" data-sitekey="6LewC4oqAAAAAN_FN5azb5maulj6Bes7pAhdQCrq"></div>
+          <div class="g-recaptcha" data-sitekey="6LewC4oqAAAAAGFLvJqYazYkLobXefoN09zgbMbO"></div>
           {error && <p className="error-text">{error}</p>}
-          <button type="submit">Get in contact!</button>
+          <button>Send us a message! </button>
         </form>
       </div>
     </div>
