@@ -100,7 +100,7 @@ function Contact() {
               onChange={handleChange}
             ></textarea>
           </div>
-          <div class="g-recaptcha" data-sitekey="6LewC4oqAAAAAGFLvJqYazYkLobXefoN09zgbMbO"></div>
+          <div className="g-recaptcha" data-sitekey="6LewC4oqAAAAAGFLvJqYazYkLobXefoN09zgbMbO"></div>
           {error && <p className="error-text">{error}</p>}
           <button>Send us a message! </button>
         </form>
